@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  <script src='main.js'></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <style>
+
+#apresentacao{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#saudacao{
+  text-align: center;
+}
+
+#color_footer{
+  color: white;
+}
+
+#sobre_hist2{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align:justify ;
+  margin-left: 30px;
+}
+
+#sobre_hist{
+  text-align: justify;
+}
+
+    .sobre_mim {
+      margin-top: 87.2px;
+      margin-bottom: 87.2px;
+      text-align: center;
+      color: white;
+    }
+
+    .sobre {
+      text-align: center;
+      color: white;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .tp1 {
+      margin-top: 30px;
+      text-align: center;
+      font-weight: bolder;
+      color: coral;
+    }
+
+    .sobre_navbar {
+      color: coral;
+      font-weight: bolder;
+    }
+
+    .descricoes {
+      text-decoration: none;
+      text-align: justify;
+      color: black;
+    }
+  </style>
+</head>
+
+<body id="scrollspyHeading6" class="bg-dark">
+  <header class="site-header sticky-top bg-dark py-1">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#scrollspyHeading6">Pedro Thiago</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">
+                  <p class="sobre_navbar">Projetos</p>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Habilidades
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#scrollspyHeading2">Habilidades</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading3">Linguagens de Programação</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading4">Frameworks</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading5">Ferramentas e Tecnologias</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading7">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading8">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" data-bs-ride="carousel">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img class="img-fluid" src="assets/img/Pedro Thiago.png" class="d-block w-100" height="450px" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img class="img-fluid" src="assets/img/Pedro Thiago 1.png" class="d-block w-100" height="450px" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img class="img-fluid" src="assets/img/Pedro Thiago 2.png" class="d-block w-100" height="450px" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="sobre_mim">
+    <h1>Venha Descobrir Sobre Mim</h1>
+  </div>
+
+
+  <main>
+
+    <section id="scrollspyHeading1" class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light text-light">Projetos Principais</h1>
+          <p class="lead text-light">Abaixo listei os principais projetos de meu repositório do github.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <a href="https://github.com/PedroThiago02/Calculadora-Delphi" target=”_blank”>
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/img/img1.png"
+                  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                  <p class="tp1" class="text-center text-dark">Calculadora com Delphi</p>
+                </text></img>
+
+                <div class="card-body">
+                  <p class="card-text text-dark">Projeto simples de um software de calculadora desenvolvida com
+                    linguaguem Delphi 12.</p>
+                </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <a href="https://github.com/PedroThiago02/Login" target=”_blank”>
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/img/img2.png"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                <p class="tp1" class="text-center text-dark">Página de Login</p>
+              </text></img>
+
+              <div class="card-body">
+                <p class="card-text">Desenvolvimente web de uma página de login, utilizando apenas HTML5 e CSS3
+                  (front-end).</p>
+              </div>
+            </div>
+          </a>
+
+        </div>
+        <div class="col">
+          <a href="https://github.com/PedroThiago02/Loja-Virtual-Laravel/tree/main" target=”_blank”>
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/img/img3.png"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                <p class="tp1" class="text-center text-dark">Loja Virtual com Laravel</p>
+              </text></img>
+
+              <div class="card-body">
+                <p class="card-text">Site de uma loja virtual (ainda em desenvolvimento) utilizando o framework Laravel
+                  e a linguagem PHP.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col">
+          <a href="https://github.com/PedroThiago02/Code-Krypto" target=”_blank”>
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/img/img4.png"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                <p class="tp1" class="text-center text-dark">Codificador</p>
+              </text></img>
+
+              <div class="card-body">
+                <p class="card-text">Página web desenvolvida para codificar e decodificar plavras e frases, denominado
+                  de Code Krypto.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="https://github.com/PedroThiago02/Registrar-Peso" target=”_blank”>
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/img/img5.png"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                <p class="tp1" class="text-center text-dark">Registrador de Peso</p>
+              </text></img>
+
+              <div class="card-body">
+                <p class="card-text">Página web desenvolvida para registrar pessoas com nome e peso para um trabalho
+                  escolar de ed. física.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="https://github.com/PedroThiago02/Jogo" target=”_blank”>
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="assets/img/img6.png"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                <p class="tp1" class="text-center text-dark">Jogo (InfoRun)</p>
+              </text></img>
+
+              <div class="card-body">
+                <p class="card-text">Jogo de corrida temático do curso de informática desenvolvido em página web para
+                  trabalho escolar.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <section id="scrollspyHeading2" class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light text-light">Minhas Habilidades</h1>
+          <p class="lead text-light">Ao decorrer de minha carreira na área de T.I, desenvolvi algumas habilidades dentro
+            do curso Técnico em informática na <strong>EEEP Dr. Napoleão Neves da Luz</strong>, dentre eles estão:</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="b-example-divider"></div>
+    <div class="container px-4 py-5 bg-light" id="hanging-icons">
+      <h2 id="scrollspyHeading3" class="pb-2 border-bottom">Linguagens de Programação:</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <a href="https://www.javascript.com/" target="_blank">
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#toggles2" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                <path fill="#ffd600" d="M6,42V6h36v36H6z"></path>
+                <path fill="#000001"
+                  d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z">
+                </path>
+              </svg>
+            </div>
+            <div class="descricoes">
+              <h2>JavaScript</h2>
+              <p>Sou desenvolvedor com habilidades em JavaScript, uma linguagem versátil e essencial para o
+                desenvolvimento web. Tenho experiência na criação de interfaces interativas, manipulação de DOM, e uso
+                de frameworks modernos como Node.js para aplicações front-end e back-end. Com JavaScript, posso
+                desenvolver desde sites dinâmicos e responsivos até APIs, sistemas interativos, dashboards e aplicações
+                em tempo real.</p>
+            </div>
+          </div>
+        </a>
+        <a href="https://www.php.net/docs.php" target="_blank">
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#cpu-fill" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                <path
+                  d="M 25 12 C 11.542969 12 1 17.710938 1 25 C 1 32.289063 11.542969 38 25 38 C 38.457031 38 49 32.289063 49 25 C 49 17.710938 38.457031 12 25 12 Z M 22.507813 16 L 25.128906 16 L 24.296875 20 L 26.636719 20 C 28.121094 20 29.117188 20.207031 29.683594 20.726563 C 30.238281 21.238281 30.40625 22.078125 30.183594 23.222656 L 29.144531 28 L 26.480469 28 L 27.4375 23.582031 C 27.554688 22.976563 27.507813 22.554688 27.304688 22.332031 C 27.101563 22.109375 26.65625 22 25.988281 22 L 23.890625 22 L 22.625 28 L 20 28 Z M 11 20 L 16.332031 20 C 18.875 20 20.414063 21.703125 19.8125 24.246094 C 19.113281 27.199219 17.238281 28 13.792969 28 L 12.144531 28 L 11.621094 31 L 8.972656 31 Z M 32 20 L 37.332031 20 C 39.875 20 41.414063 21.703125 40.8125 24.246094 C 40.113281 27.199219 38.238281 28 34.792969 28 L 33.144531 28 L 32.621094 31 L 29.972656 31 Z M 13.269531 22 L 12.515625 26 L 14.226563 26 C 15.707031 26 17.082031 25.832031 17.3125 23.625 C 17.398438 22.769531 17.042969 22 15.332031 22 Z M 34.269531 22 L 33.515625 26 L 35.226563 26 C 36.707031 26 38.082031 25.832031 38.3125 23.625 C 38.398438 22.769531 38.042969 22 36.332031 22 Z">
+                </path>
+              </svg>
+            </div>
+            <div class="descricoes">
+              <h2>PHP</h2>
+              <p>Tenho experiência com PHP, uma linguagem amplamente utilizada no desenvolvimento web back-end. Com PHP,
+                sou capaz de criar sistemas dinâmicos, como portais, blogs, e-commerces, sistemas de login/autenticação,
+                além de desenvolver e consumir APIs. Conheço o uso de bancos de dados relacionais como MySQL, integração
+                com formulários, sessões e cookies, e também frameworks como Laravel, que agilizam e organizam o
+                desenvolvimento de aplicações robustas e seguras.</p>
+            </div>
+          </div>
+        </a>
+        <a href="https://www.embarcadero.com/br/products/delphi" target="_blank">
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#tools" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                <path fill="#d32f2f" d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"></path>
+                <path fill="#fefdfd"
+                  d="M15.775 19.127l-1.39-5.861-3.231 3.2L13.84 21.5C14.357 20.611 15.011 19.813 15.775 19.127zM19.65 16.949l1.325-7.288c-.172.064-5.105 2.005-5.105 2.005l.683 6.829C17.475 17.822 18.514 17.289 19.65 16.949zM22.75 16.5c.447 0 .898.042 1.349.103l4.771-7.592L23 9l-2.444 7.725C21.262 16.58 21.994 16.5 22.75 16.5zM28.307 18.073L37 11.133 30.808 9l-5.887 7.741C26.126 16.998 27.289 17.459 28.307 18.073zM13.427 22.298l-2.822-3.911L9 21.949l3.647 2.888C12.795 23.942 13.059 23.091 13.427 22.298zM13.86 31.404L11 31.805l1.489 1.845 2.301-.947C14.446 32.29 14.13 31.86 13.86 31.404zM12.876 29.092L9.409 28.2l.872 2.624 3.228-.076C13.246 30.215 13.037 29.661 12.876 29.092zM12.5 26.5c0-.176.017-.347.026-.52l-3.257-2.324L9 26.824l3.685 1.483C12.57 27.714 12.5 27.111 12.5 26.5z">
+                </path>
+                <path fill="#fefdfd"
+                  d="M15.97,33.923l0.311,0.24l0.052,0.038c0.003-0.005,0.006-0.013,0.009-0.018 c0.199-0.416,0.807-1.682,4.033-1.682c0.803,0,1.429,0.102,1.923,0.226l1.127-0.269l-2.031-4.266l-1.103,0.236l-0.665-1.496 l10.692-7.196l-0.035-0.047l-0.219-0.253c-1.739-1.783-4.611-2.935-7.315-2.935c-5.748,0-10.25,4.393-10.25,10 C12.5,29.315,13.757,32.014,15.97,33.923z">
+                </path>
+                <path fill="#ff8d69"
+                  d="M13,26.5c0-5.327,4.283-9.5,9.75-9.5c2.591,0,5.333,1.118,6.958,2.784l0.197,0.23l0.832-0.56 C29.039,17.479,25.901,16,22.75,16C16.675,16,12,20.701,12,26.5c0,3.288,1.585,6.221,4.064,8.146l0.04,0.034 c0.092-0.195,0.175-0.369,0.238-0.498c0.048-0.099,0.12-0.248,0.244-0.415l-0.311-0.24C14.187,31.725,13,29.191,13,26.5z">
+                </path>
+                <path fill="#ff8d69"
+                  d="M17.25,31.375C15.875,30.25,15,28.5,15,26.5c0-4.206,3.404-8,7.75-8c0.082,0,0.167-0.003,0.25,0 L22,18c-4.542,0.358-8,3.98-8,8.5c0,2.018,0.773,3.973,2.146,5.5L17.25,31.375z">
+                </path>
+                <path fill="#e74743"
+                  d="M23.501,32.615C23.059,32.4,22.022,32,20.375,32c-2.444,0-3.693,0.919-4.092,1.283 c-0.094,0.086-0.165,0.189-0.219,0.304L14,38c0,0,2.469-1,4.625-1c3.333,0,4.875,1,4.875,1l1.462-2.315L23.501,32.615z">
+                </path>
+                <path fill="#ff8d69"
+                  d="M22,33.375C21.625,33.125,20.974,33,20.14,33c-2.094,0-3.115,0.936-3.281,1.282 c-0.073,0.152-0.242,0.479-0.355,0.718c0,0,1.497-1,2.997-1.375C20.347,33.413,21.125,33.375,22,33.375z">
+                </path>
+                <path fill="#fefdfd" d="M19.627,26.931l0.665,1.496L33.39,25.62l-1.702-6.807L19.627,26.931z"></path>
+                <path fill="#ff8d69"
+                  d="M31.376,19.626l1.403,5.613l-12.195,2.613l-0.329-0.741L31.376,19.626 M32,18l-13,8.75L20,29l14-3 L32,18L32,18z">
+                </path>
+                <path fill="#fefdfd"
+                  d="M21.543,28.503l5.647,11.865c0.85-0.354,2.772-1.307,3.281-2.843 c-0.292-0.718-1.596-3.758-3.304-5.276c-0.443-0.393-0.75-0.619-1.031-0.825c-0.423-0.311-0.823-0.605-1.503-1.333 C23.384,28.751,22.481,28.534,21.543,28.503z">
+                </path>
+                <path fill="#ff8d69"
+                  d="M22.39,29.119c0.533,0.155,1.127,0.508,1.879,1.313c0.711,0.762,1.129,1.069,1.572,1.394 c0.281,0.206,0.571,0.42,0.995,0.796c1.513,1.345,2.712,3.991,3.098,4.91c-0.424,0.992-1.604,1.751-2.5,2.183L22.39,29.119 M21.205,27.998c-0.151,0-0.302,0.002-0.455,0.002l6.188,13c0,0,3.438-1.125,4.063-3.5c0,0-1.449-3.802-3.5-5.625 c-1.125-1-1.408-0.955-2.5-2.125C23.456,28.096,22.337,27.998,21.205,27.998L21.205,27.998z">
+                </path>
+              </svg>
+            </div>
+            <div class="descricoes">
+              <h2>Delphi</h2>
+              <p>Possuo experiência com Delphi, uma linguagem voltada ao desenvolvimento de aplicações desktop com
+                interface gráfica para Windows. Utilizo Delphi para criar sistemas corporativos, controle de estoque,
+                gestão de vendas, entre outros, com foco em performance e usabilidade. Tenho conhecimento na manipulação
+                de bancos de dados (como MySQL, SQL Server), e uso de componentes visuais para acelerar o
+                desenvolvimento. Delphi é uma ótima ferramenta para sistemas robustos e estáveis em ambiente local.</p>
+            </div>
+          </div>
+      </div>
+    </div></a>
+
+
+    <div class="b-example-divider"></div>
+
+    <div id="scrollspyHeading4" class="container px-4 py-5 bg-light" id="hanging-icons">
+      <h2 class="pb-2 border-bottom">Frameworks:</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <a href="https://laravel.com/" target="_blank">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#toggles2" />
+              </svg>
+              <?xml version="1.0" encoding="UTF-8"?>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128px"
+                height="133px" viewBox="0 0 128 128" version="1.1">
+                <g id="surface1">
+                  <path style=" stroke:none;fill-rule:nonzero;fill:rgb(94.117647%,32.54902%,25.098039%);fill-opacity:1;"
+                    d="M 26.027344 0.136719 C 25.824219 0.214844 20.085938 3.484375 13.28125 7.394531 C 5.035156 12.136719 0.800781 14.632812 0.574219 14.867188 C 0.394531 15.070312 0.191406 15.421875 0.128906 15.644531 C -0.0429688 16.21875 -0.0546875 100.347656 0.117188 100.953125 C 0.179688 101.1875 0.382812 101.53125 0.566406 101.722656 C 1.011719 102.191406 50.238281 130.496094 50.835938 130.632812 C 51.113281 130.699219 51.425781 130.6875 51.734375 130.601562 C 52.40625 130.433594 101.503906 102.191406 101.941406 101.730469 C 102.121094 101.53125 102.324219 101.1875 102.390625 100.953125 C 102.476562 100.675781 102.507812 96.277344 102.507812 87.015625 L 102.507812 73.480469 L 114.476562 66.605469 C 125.761719 60.117188 126.453125 59.710938 126.742188 59.265625 L 127.039062 58.785156 L 127.039062 44.207031 C 127.039062 28.335938 127.070312 29.230469 126.441406 28.65625 C 126.273438 28.507812 120.523438 25.152344 113.652344 21.195312 L 101.171875 14.015625 L 99.785156 14.015625 L 87.574219 21.027344 C 80.851562 24.894531 75.136719 28.199219 74.859375 28.378906 C 74.582031 28.5625 74.25 28.902344 74.113281 29.148438 L 73.867188 29.574219 L 73.8125 43.308594 L 73.761719 57.046875 L 63.679688 62.855469 C 58.132812 66.042969 53.515625 68.683594 53.417969 68.707031 C 53.238281 68.757812 53.226562 67.449219 53.226562 42.203125 L 53.226562 15.632812 L 52.960938 15.175781 C 52.628906 14.621094 54.121094 15.507812 39.136719 6.894531 C 26.570312 -0.332031 26.871094 -0.179688 26.027344 0.136719 Z M 37.578125 10.65625 C 42.835938 13.671875 47.136719 16.167969 47.136719 16.199219 C 47.136719 16.230469 42.527344 18.894531 36.894531 22.132812 L 26.644531 28.015625 L 16.414062 22.132812 C 10.792969 18.894531 6.1875 16.230469 6.1875 16.199219 C 6.1875 16.167969 10.785156 13.503906 16.40625 10.273438 L 26.613281 4.402344 L 27.316406 4.785156 C 27.710938 5 32.332031 7.640625 37.578125 10.65625 Z M 110.730469 24.191406 C 116.265625 27.378906 120.84375 30.011719 120.886719 30.054688 C 121.003906 30.160156 100.703125 41.828125 100.425781 41.816406 C 100.148438 41.808594 80.097656 30.246094 80.105469 30.105469 C 80.117188 29.945312 100.289062 18.339844 100.492188 18.371094 C 100.585938 18.394531 105.195312 21.015625 110.730469 24.191406 Z M 14.828125 25.875 L 24.585938 31.492188 L 24.640625 59.304688 L 24.691406 87.121094 L 24.929688 87.496094 C 25.054688 87.695312 25.289062 87.964844 25.460938 88.089844 C 25.621094 88.207031 31.050781 91.300781 37.523438 94.953125 L 49.28125 101.59375 L 49.28125 113.359375 C 49.28125 119.816406 49.238281 125.113281 49.183594 125.113281 C 49.140625 125.113281 38.976562 119.296875 26.601562 112.175781 L 4.105469 99.238281 L 4.074219 59.464844 L 4.054688 19.703125 L 4.554688 19.980469 C 4.84375 20.132812 9.460938 22.785156 14.828125 25.875 Z M 49.28125 45.453125 L 49.28125 71.082031 L 48.886719 71.339844 C 48.351562 71.679688 28.8125 82.910156 28.746094 82.910156 C 28.714844 82.910156 28.691406 71.339844 28.691406 57.195312 L 28.703125 31.492188 L 38.910156 25.621094 C 44.523438 22.390625 49.152344 19.769531 49.207031 19.789062 C 49.246094 19.8125 49.28125 31.363281 49.28125 45.453125 Z M 88.222656 39.558594 L 98.453125 45.441406 L 98.453125 57.101562 C 98.453125 68.164062 98.441406 68.757812 98.273438 68.695312 C 98.164062 68.652344 93.535156 66 87.980469 62.800781 L 77.867188 56.992188 L 77.867188 45.335938 C 77.867188 38.917969 77.898438 33.675781 77.929688 33.675781 C 77.972656 33.675781 82.601562 36.320312 88.222656 39.558594 Z M 123.09375 45.261719 C 123.09375 51.644531 123.050781 56.910156 123.007812 56.960938 C 122.933594 57.078125 102.699219 68.738281 102.570312 68.738281 C 102.539062 68.738281 102.507812 63.496094 102.507812 57.078125 L 102.507812 45.421875 L 112.714844 39.546875 C 118.335938 36.320312 122.964844 33.675781 123.007812 33.675781 C 123.0625 33.675781 123.09375 38.886719 123.09375 45.261719 Z M 86.230469 66.46875 C 94.835938 71.421875 96.320312 72.308594 96.171875 72.425781 C 96.074219 72.488281 92.8125 74.363281 88.929688 76.582031 C 85.046875 78.796875 74.988281 84.53125 66.570312 89.328125 L 51.273438 98.054688 L 50.785156 97.789062 C 47.863281 96.191406 30.910156 86.546875 30.910156 86.472656 C 30.902344 86.3125 75.765625 60.53125 75.945312 60.597656 C 76.03125 60.628906 80.660156 63.269531 86.230469 66.46875 Z M 98.433594 87.558594 L 98.398438 99.238281 L 75.914062 112.175781 C 63.542969 119.296875 53.375 125.113281 53.324219 125.113281 C 53.269531 125.113281 53.226562 120.359375 53.226562 113.359375 L 53.226562 101.59375 L 75.765625 88.742188 C 88.148438 81.675781 98.324219 75.890625 98.378906 75.878906 C 98.421875 75.878906 98.441406 81.132812 98.433594 87.558594 Z M 98.433594 87.558594 " />
+                </g>
+              </svg>
+            </div>
+            <div class="descricoes">
+              <h2 class="text-dark">Laravel</h2>
+              <p class="text-dark">Tenho experiência com Laravel, um dos frameworks PHP mais populares e poderosos para
+                o desenvolvimento web moderno. Utilizo Laravel para criar sistemas escaláveis, seguros e bem
+                estruturados, como painéis administrativos, e-commerces, APIs e sistemas de gestão personalizados.
+                Domino recursos como migrations, autenticação, validações, middlewares e integração com serviços
+                externos. Com sua arquitetura limpa e suporte a boas práticas, Laravel me permite entregar aplicações
+                eficientes e de fácil manutenção.</p>
+              <a></a>
+            </div>
+        </div>
+        </a>
+        <a href="https://getbootstrap.com/" target="_blank">
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#cpu-fill" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128px"
+                height="133px" viewBox="0 0 128 128" version="1.1">
+                <defs>
+                  <linearGradient id="a" x1="76.079" x2="523.48" y1="10.798" y2="365.95"
+                    gradientTransform="translate(1.11 14.613) scale(.24566)" gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#9013fe" />
+                    <stop offset="1" stop-color="#6610f2" />
+                  </linearGradient>
+                  <linearGradient id="b" x1="193.51" x2="293.51" y1="109.74" y2="278.87"
+                    gradientTransform="translate(0 52)" gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#fff" />
+                    <stop offset="1" stop-color="#f1e5fc" />
+                  </linearGradient>
+                  <filter id="c" width="197" height="249" x="161.9" y="135.46" color-interpolation-filters="sRGB"
+                    filterUnits="userSpaceOnUse">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="8" />
+                    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+                    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+                    <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+                  </filter>
+                </defs>
+                <path fill="url(#a)"
+                  d="M14.985 27.712c-.237-6.815 5.072-13.099 12.249-13.099h73.54c7.177 0 12.486 6.284 12.249 13.099-.228 6.546.068 15.026 2.202 21.94 2.141 6.936 5.751 11.319 11.664 11.883v6.387c-5.913.564-9.523 4.947-11.664 11.883-2.134 6.914-2.43 15.394-2.202 21.94.237 6.815-5.072 13.098-12.249 13.098h-73.54c-7.177 0-12.486-6.284-12.249-13.098.228-6.546-.068-15.026-2.203-21.94-2.14-6.935-5.76-11.319-11.673-11.883v-6.387c5.913-.563 9.533-4.947 11.673-11.883 2.135-6.914 2.43-15.394 2.203-21.94z" />
+                <path fill="url(#b)"
+                  d="M267.1 364.46c47.297 0 75.798-23.158 75.798-61.355 0-28.873-20.336-49.776-50.532-53.085v-1.203c22.185-3.609 39.594-24.211 39.594-47.219 0-32.783-25.882-54.138-65.322-54.138h-88.74v217zm-54.692-189.48h45.911c24.958 0 39.131 11.128 39.131 31.279 0 21.505-16.484 33.535-46.372 33.535h-38.67zm0 161.96v-71.431h45.602c32.661 0 49.608 12.03 49.608 35.49 0 23.459-16.484 35.941-47.605 35.941z"
+                  filter="url(#c)" transform="translate(1.494 2.203) scale(.24566)" />
+              </svg>
+
+            </div>
+            <div class="descricoes">
+              <h2>Bootstrap</h2>
+              <p>Tenho domínio de Bootstrap, um dos frameworks CSS mais utilizados para o desenvolvimento de interfaces
+                web modernas e responsivas. Com ele, consigo criar layouts adaptáveis para diferentes dispositivos,
+                utilizando sua grade flexível, componentes prontos e utilitários de estilização. Uso Bootstrap para
+                agilizar o desenvolvimento front-end de painéis administrativos, landing pages, formulários, e-commerces
+                e muito mais, garantindo um visual limpo, padronizado e com boa usabilidade.</p>
+            </div>
+          </div>
+      </div></a>
+
+
+      <div class="b-example-divider"></div>
+      <div class="container px-4 py-5 bg-light" id="hanging-icons">
+        <h2 id="scrollspyHeading5" class="pb-2 border-bottom">Ferramentas e Tecnologias:</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <a href="https://git-scm.com/" target="_blank">
+            <div class="col d-flex align-items-start">
+              <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#toggles2" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="128px" height="128px" viewBox="0 0 128 128">
+                  <path fill="#F34F29"
+                    d="M124.737 58.378L69.621 3.264c-3.172-3.174-8.32-3.174-11.497 0L46.68 14.71l14.518 14.518c3.375-1.139 7.243-.375 9.932 2.314 2.703 2.706 3.461 6.607 2.294 9.993l13.992 13.993c3.385-1.167 7.292-.413 9.994 2.295 3.78 3.777 3.78 9.9 0 13.679a9.673 9.673 0 01-13.683 0 9.677 9.677 0 01-2.105-10.521L68.574 47.933l-.002 34.341a9.708 9.708 0 012.559 1.828c3.778 3.777 3.778 9.898 0 13.683-3.779 3.777-9.904 3.777-13.679 0-3.778-3.784-3.778-9.905 0-13.683a9.65 9.65 0 013.167-2.11V47.333a9.581 9.581 0 01-3.167-2.111c-2.862-2.86-3.551-7.06-2.083-10.576L41.056 20.333 3.264 58.123a8.133 8.133 0 000 11.5l55.117 55.114c3.174 3.174 8.32 3.174 11.499 0l54.858-54.858a8.135 8.135 0 00-.001-11.501z" />
+                </svg>
+              </div>
+              <div class="descricoes">
+                <h2>Git</h2>
+                <p>Tenho experiência com Git, ferramenta essencial para o controle de versionamento de código. Utilizo
+                  Git em projetos individuais e em equipe para gerenciar versões, trabalhar com branches, realizar
+                  merge, resolver conflitos e manter um histórico claro e organizado do desenvolvimento. Tenho
+                  familiaridade com plataformas como GitHub, GitLab e Bitbucket, onde colaboro em repositórios, faço
+                  pull requests, code reviews e acompanho o fluxo de desenvolvimento com práticas como Git Flow.</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://code.visualstudio.com/" target="_blank">
+            <div class="col d-flex align-items-start">
+              <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#cpu-fill" />
+                </svg>
+                <img src="assets/img/Visual Studio Code (VS Code).png" width="100" height="100" alt="">
+              </div>
+              <div class="descricoes">
+                <h2>VS Code</h2>
+                <p>Utilizo o Visual Studio Code (VS Code) como meu principal ambiente de desenvolvimento. Com ele,
+                  trabalho de forma produtiva em projetos front-end e back-end, aproveitando recursos como extensões
+                  personalizadas, IntelliSense, depuração, terminal integrado e controle de versionamento com Git.
+                  Conheço atalhos, temas e ferramentas que otimizam meu fluxo de trabalho, além de integrar o VS Code
+                  com tecnologias como JavaScript, PHP, Laravel, HTML/CSS, Bootstrap e bancos de dados. É uma ferramenta
+                  essencial no meu dia a dia como desenvolvedor.</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.mysql.com/" target="_blank">
+            <div class="col d-flex align-items-start">
+              <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#tools" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 128 128">
+                  <path fill="#00618A"
+                    d="M116.948 97.807c-6.863-.187-12.104.452-16.585 2.341-1.273.537-3.305.552-3.513 2.147.7.733.809 1.829 1.365 2.731 1.07 1.73 2.876 4.052 4.488 5.268 1.762 1.33 3.577 2.751 5.465 3.902 3.358 2.047 7.107 3.217 10.34 5.268 1.906 1.21 3.799 2.733 5.658 4.097.92.675 1.537 1.724 2.732 2.147v-.194c-.628-.8-.79-1.898-1.366-2.733l-2.537-2.537c-2.48-3.292-5.629-6.184-8.976-8.585-2.669-1.916-8.642-4.504-9.755-7.609l-.195-.195c1.892-.214 4.107-.898 5.854-1.367 2.934-.786 5.556-.583 8.585-1.365l4.097-1.171v-.78c-1.531-1.571-2.623-3.651-4.292-5.073-4.37-3.72-9.138-7.437-14.048-10.537-2.724-1.718-6.089-2.835-8.976-4.292-.971-.491-2.677-.746-3.318-1.562-1.517-1.932-2.342-4.382-3.511-6.633-2.449-4.717-4.854-9.868-7.024-14.831-1.48-3.384-2.447-6.72-4.293-9.756-8.86-14.567-18.396-23.358-33.169-32-3.144-1.838-6.929-2.563-10.929-3.513-2.145-.129-4.292-.26-6.438-.391-1.311-.546-2.673-2.149-3.902-2.927C17.811 4.565 5.257-2.16 1.633 6.682c-2.289 5.581 3.421 11.025 5.462 13.854 1.434 1.982 3.269 4.207 4.293 6.438.674 1.467.79 2.938 1.367 4.489 1.417 3.822 2.652 7.98 4.487 11.511.927 1.788 1.949 3.67 3.122 5.268.718.981 1.951 1.413 2.145 2.927-1.204 1.686-1.273 4.304-1.95 6.44-3.05 9.615-1.899 21.567 2.537 28.683 1.36 2.186 4.567 6.871 8.975 5.073 3.856-1.57 2.995-6.438 4.098-10.732.249-.973.096-1.689.585-2.341v.195l3.513 7.024c2.6 4.187 7.212 8.562 11.122 11.514 2.027 1.531 3.623 4.177 6.244 5.073v-.196h-.195c-.508-.791-1.303-1.119-1.951-1.755-1.527-1.497-3.225-3.358-4.487-5.073-3.556-4.827-6.698-10.11-9.561-15.609-1.368-2.627-2.557-5.523-3.709-8.196-.444-1.03-.438-2.589-1.364-3.122-1.263 1.958-3.122 3.542-4.098 5.854-1.561 3.696-1.762 8.204-2.341 12.878-.342.122-.19.038-.391.194-2.718-.655-3.672-3.452-4.683-5.853-2.554-6.07-3.029-15.842-.781-22.829.582-1.809 3.21-7.501 2.146-9.172-.508-1.666-2.184-2.63-3.121-3.903-1.161-1.574-2.319-3.646-3.124-5.464-2.09-4.731-3.066-10.044-5.267-14.828-1.053-2.287-2.832-4.602-4.293-6.634-1.617-2.253-3.429-3.912-4.683-6.635-.446-.968-1.051-2.518-.391-3.513.21-.671.508-.951 1.171-1.17 1.132-.873 4.284.29 5.462.779 3.129 1.3 5.741 2.538 8.392 4.294 1.271.844 2.559 2.475 4.097 2.927h1.756c2.747.631 5.824.195 8.391.975 4.536 1.378 8.601 3.523 12.292 5.854 11.246 7.102 20.442 17.21 26.732 29.269 1.012 1.942 1.45 3.794 2.341 5.854 1.798 4.153 4.063 8.426 5.852 12.488 1.786 4.052 3.526 8.141 6.05 11.513 1.327 1.772 6.451 2.723 8.781 3.708 1.632.689 4.307 1.409 5.854 2.34 2.953 1.782 5.815 3.903 8.586 5.855 1.383.975 5.64 3.116 5.852 4.879zM29.729 23.466c-1.431-.027-2.443.156-3.513.389v.195h.195c.683 1.402 1.888 2.306 2.731 3.513.65 1.367 1.301 2.732 1.952 4.097l.194-.193c1.209-.853 1.762-2.214 1.755-4.294-.484-.509-.555-1.147-.975-1.755-.556-.811-1.635-1.272-2.339-1.952z" />
+                </svg>
+              </div>
+              <div class="descricoes">
+                <h2>MySQL</h2>
+                <p>Tenho experiência com MySQL, um dos sistemas de gerenciamento de bancos de dados relacionais mais
+                  utilizados no mercado. Utilizo MySQL para modelar, criar e gerenciar bases de dados, escrevendo
+                  queries otimizadas, stored procedures, triggers e views. Tenho prática em realizar joins complexos,
+                  normalização de dados, e integração com linguagens como PHP (Laravel), JavaScript e Delphi. Também uso
+                  ferramentas como phpMyAdmin, MySQL Workbench ou DBeaver para facilitar a administração e análise de
+                  dados.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+      </a>
+      <div class="b-example-divider"></div>
+      <div class="container px-4 py-1 bg-light" id="hanging-icons">
+        <div class="row g-4 py-1 row-cols-1 row-cols-lg-3">
+          <a href="https://aws.amazon.com/" target="_blank">
+            <div class="col d-flex align-items-start">
+              <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#toggles2" />
+                </svg>
+                <svg viewBox="0 0 128 128" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="#252f3e"
+                    d="M36.379 53.64c0 1.56.168 2.825.465 3.75.336.926.758 1.938 1.347 3.032.207.336.293.672.293.969 0 .418-.254.84-.8 1.261l-2.653 1.77c-.379.25-.758.379-1.093.379-.422 0-.844-.211-1.266-.59a13.28 13.28 0 0 1-1.516-1.98 34.153 34.153 0 0 1-1.304-2.485c-3.282 3.875-7.41 5.813-12.38 5.813-3.535 0-6.355-1.012-8.421-3.032-2.063-2.023-3.114-4.718-3.114-8.086 0-3.578 1.262-6.484 3.833-8.671 2.566-2.192 5.976-3.286 10.316-3.286 1.43 0 2.902.125 4.46.336 1.56.211 3.161.547 4.845.926v-3.074c0-3.2-.676-5.43-1.98-6.734C26.061 32.633 23.788 32 20.546 32c-1.473 0-2.988.168-4.547.547a33.416 33.416 0 0 0-4.547 1.433c-.676.293-1.18.461-1.473.547-.296.082-.507.125-.675.125-.59 0-.883-.422-.883-1.304v-2.063c0-.676.082-1.18.293-1.476.21-.293.59-.586 1.18-.883 1.472-.758 3.242-1.39 5.304-1.895 2.063-.547 4.254-.8 6.57-.8 5.008 0 8.672 1.136 11.032 3.41 2.316 2.273 3.492 5.726 3.492 10.359v13.64Zm-17.094 6.403c1.387 0 2.82-.254 4.336-.758 1.516-.508 2.863-1.433 4-2.695.672-.8 1.18-1.684 1.43-2.695.254-1.012.422-2.23.422-3.665v-1.765a34.401 34.401 0 0 0-3.871-.719 31.816 31.816 0 0 0-3.961-.25c-2.82 0-4.883.547-6.274 1.684-1.387 1.136-2.062 2.734-2.062 4.84 0 1.98.504 3.453 1.558 4.464 1.012 1.051 2.485 1.559 4.422 1.559Zm33.809 4.547c-.758 0-1.262-.125-1.598-.422-.34-.254-.633-.84-.887-1.64L40.715 29.98c-.25-.843-.38-1.39-.38-1.687 0-.672.337-1.05 1.013-1.05h4.125c.8 0 1.347.124 1.644.421.336.25.59.84.84 1.64l7.074 27.876 6.57-27.875c.208-.84.462-1.39.797-1.64.34-.255.93-.423 1.688-.423h3.367c.8 0 1.348.125 1.684.422.336.25.633.84.8 1.64l6.653 28.212 7.285-28.211c.25-.84.547-1.39.84-1.64.336-.255.887-.423 1.644-.423h3.914c.676 0 1.055.336 1.055 1.051 0 .21-.043.422-.086.676-.043.254-.125.59-.293 1.05L80.801 62.57c-.254.84-.547 1.387-.887 1.64-.336.255-.883.423-1.598.423h-3.62c-.801 0-1.348-.13-1.684-.422-.34-.297-.633-.844-.801-1.684l-6.527-27.16-6.485 27.117c-.21.844-.46 1.391-.8 1.684-.337.297-.926.422-1.684.422Zm54.105 1.137c-2.187 0-4.379-.254-6.484-.758-2.106-.504-3.746-1.055-4.84-1.684-.676-.379-1.137-.8-1.305-1.18a2.919 2.919 0 0 1-.254-1.18v-2.148c0-.882.336-1.304.97-1.304.25 0 .503.043.757.129.25.082.629.25 1.05.418a23.102 23.102 0 0 0 4.634 1.476c1.683.336 3.324.504 5.011.504 2.653 0 4.715-.465 6.145-1.39 1.433-.926 2.191-2.274 2.191-4 0-1.18-.379-2.145-1.136-2.946-.758-.8-2.192-1.516-4.254-2.191l-6.106-1.895c-3.074-.969-5.348-2.398-6.734-4.293-1.39-1.855-2.106-3.918-2.106-6.105 0-1.77.38-3.328 1.137-4.676a10.829 10.829 0 0 1 3.031-3.453c1.262-.965 2.696-1.684 4.38-2.188 1.683-.504 3.452-.715 5.304-.715.926 0 1.894.043 2.82.168.969.125 1.852.293 2.738.461.84.211 1.641.422 2.399.676.758.254 1.348.504 1.77.758.59.336 1.011.672 1.261 1.05.254.34.379.802.379 1.391v1.98c0 .884-.336 1.348-.969 1.348-.336 0-.883-.171-1.597-.507-2.403-1.094-5.098-1.641-8.086-1.641-2.399 0-4.293.379-5.598 1.18-1.309.797-1.98 2.02-1.98 3.746 0 1.18.421 2.191 1.261 2.988.844.8 2.403 1.602 4.633 2.316l5.98 1.895c3.032.969 5.22 2.316 6.524 4.043 1.305 1.727 1.938 3.707 1.938 5.895 0 1.812-.38 3.453-1.094 4.882-.758 1.434-1.77 2.696-3.074 3.707-1.305 1.051-2.864 1.809-4.672 2.36-1.895.586-3.875.883-6.024.883Zm0 0" />
+                  <path fill="#f90"
+                    d="M118 73.348c-4.432.063-9.664 1.052-13.621 3.832-1.223.883-1.012 2.062.336 1.894 4.508-.547 14.44-1.726 16.21.547 1.77 2.23-1.976 11.62-3.663 15.79-.504 1.26.59 1.769 1.726.8 7.41-6.231 9.348-19.242 7.832-21.137-.757-.925-4.388-1.79-8.82-1.726zM1.63 75.859c-.927.116-1.347 1.236-.368 2.121 16.508 14.902 38.359 23.872 62.613 23.872 17.305 0 37.43-5.43 51.281-15.66 2.273-1.688.297-4.254-2.02-3.204-15.534 6.57-32.421 9.77-47.788 9.77-22.778 0-44.8-6.273-62.653-16.633-.39-.231-.755-.304-1.064-.266z" />
+                </svg>
+              </div>
+              <div class="descricoes">
+                <h2>AWS</h2>
+                <p>Tenho conhecimentos em AWS (Amazon Web Services), plataforma de serviços em nuvem que utilizo para
+                  hospedar, escalar e gerenciar aplicações web. Já trabalhei com serviços como EC2 (servidores
+                  virtuais), S3 (armazenamento de arquivos), RDS (banco de dados gerenciado), Route 53 (DNS), e
+                  CloudWatch (monitoramento). Utilizo AWS para garantir alta disponibilidade, escalabilidade e
+                  segurança, seja em ambientes de produção, testes ou desenvolvimento. Também tenho familiaridade com
+                  boas práticas de backup e gerenciamento de permissões via IAM.</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://wordpress.com/" target="_blank">
+            <div class="col d-flex align-items-start">
+              <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#cpu-fill" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 128 128">
+                  <path fill-rule="evenodd" clip-rule="evenodd" fill="#337BA2"
+                    d="M43.257 121.233c.079 1.018.029 2.071.299 3.037.115.408.9.629 1.381.935l.625.401c-.235.137-.469.389-.707.392a165.82 165.82 0 01-5.598.002c-.248-.004-.491-.237-.735-.364.198-.143.388-.391.597-.408 1.251-.105 1.632-.865 1.626-1.989-.011-2.066-.006-4.134.003-6.202.005-1.152-.322-1.993-1.679-2.045-.188-.008-.366-.296-.548-.453.182-.111.366-.321.546-.318 2.39.029 4.79-.024 7.167.177 1.873.159 3.107 1.455 3.234 2.949.138 1.639-.703 2.764-2.605 3.486l-.729.272c1.225 1.158 2.31 2.29 3.516 3.272.535.437 1.293.697 1.989.817 1.393.238 2.149-.361 2.187-1.742.061-2.229.032-4.461.011-6.691-.01-1.022-.449-1.697-1.589-1.753-.215-.01-.42-.253-.629-.388.239-.14.478-.4.715-.399 2.432.02 4.875-.055 7.291.161 4.123.366 6.42 3.797 5.214 7.588-.735 2.312-2.495 3.619-4.759 3.773-3.958.27-7.938.215-11.909.243-.316.002-.706-.341-.944-.623-.914-1.085-1.776-2.213-2.668-3.316-.27-.334-.571-.641-.858-.961l-.444.147zm13.119-5.869c0 2.785-.034 5.484.036 8.18.011.414.41 1.039.78 1.187 1.457.581 3.812-.368 4.47-1.842.881-1.973.988-4.05-.203-5.922-1.175-1.847-3.132-1.663-5.083-1.603zm-13.021 4.561c1.262.032 2.653.313 3.192-1.073.302-.777.234-1.982-.183-2.69-.633-1.076-1.906-.888-3.01-.752l.001 4.515z" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" fill="#515151"
+                    d="M96.77 119.35c.834-.18 1.661-.154 2.198-.537.451-.32.563-1.116.908-1.886.199.357.386.539.39.724.025 1.38.03 2.761 0 4.141-.005.216-.226.427-.347.641-.136-.114-.339-.2-.399-.346-.733-1.771-.729-1.772-2.843-1.583.309 1.382-.763 3.149.89 4.058.843.463 2.203.371 3.189.068.841-.256 1.48-1.171 2.212-1.798v3.096c-.405.036-.712.086-1.021.086-4.141.006-8.282-.012-12.422.019-.714.006-1.197-.174-1.633-.773-.857-1.182-1.799-2.302-2.725-3.432-.232-.283-.534-.508-1.021-.962 0 1.154-.042 1.981.012 2.802.056.858.469 1.427 1.418 1.534.279.032.529.325.792.5-.271.105-.54.298-.812.303-1.827.026-3.653.025-5.48.001-.28-.004-.558-.173-.866-.275l.156-.303c2.244-.906 2.25-.906 2.248-3.508a343.88 343.88 0 00-.039-4.87c-.017-1.121-.321-2.01-1.689-2.058-.197-.007-.384-.287-.577-.441.226-.113.453-.325.678-.323 2.311.022 4.635-.054 6.93.16 2.512.234 4.065 2.329 3.132 4.257-.51 1.053-1.688 1.783-2.725 2.818.984.9 2.117 2.194 3.491 3.135 1.941 1.33 3.268.571 3.317-1.748.041-1.947-.007-3.896-.015-5.845-.004-1.155-.361-1.994-1.717-2.013-.185-.003-.367-.2-.586-.33.705-.52 7.499-.709 10.448-.332l.19 3.214-.333.136c-.686-.717-.601-2.199-2.02-2.204-1.084-.005-2.168-.119-3.332-.189.003 1.356.003 2.59.003 4.063zm-12.647.566c2.61.105 3.646-.603 3.584-2.364-.061-1.698-1.195-2.383-3.584-2.121v4.485z" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" fill="#3179A1"
+                    d="M11.555 120.682c.996-2.947 1.979-5.897 3.003-8.834.141-.404.486-.737.737-1.104.248.378.587.725.729 1.14.931 2.719 1.817 5.451 2.722 8.179.072.219.165.43.375.969.928-2.813 1.787-5.308 2.564-7.829.27-.873-.081-1.504-1.097-1.618-.335-.039-.66-.17-1.051-.274.676-.749 5.957-.804 6.827-.108-.236.112-.424.271-.618.279-1.65.064-2.414 1.097-2.884 2.521-1.258 3.81-2.54 7.611-3.817 11.415-.133.395-.3.778-.452 1.166l-.421.03-3.579-10.821-3.619 10.788-.354.022c-.185-.401-.412-.79-.547-1.207-1.167-3.581-2.319-7.167-3.474-10.751-.495-1.539-.99-3.069-3.012-3.167-.132-.006-.253-.229-.38-.35.158-.13.316-.373.476-.375 2.272-.024 4.546-.024 6.818.001.158.001.313.247.47.379-.169.126-.319.309-.508.367-1.82.55-1.951.761-1.378 2.526.723 2.233 1.468 4.457 2.204 6.686l.266-.03z" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" fill="#4D4D4D"
+                    d="M65.484 111.25c.279-.241.435-.494.587-.491 2.957.044 5.938-.093 8.864.247 2.768.321 4.301 2.919 3.466 5.359-.748 2.189-2.593 2.874-4.68 3.064-.881.081-1.776.013-2.824.013.093 1.453.14 2.78.275 4.098.113 1.114.863 1.56 1.923 1.65.239.021.457.288.684.442-.25.126-.498.36-.75.363-2.191.029-4.384.028-6.575.002-.263-.003-.523-.219-.784-.336.218-.165.432-.463.656-.472 1.463-.056 2.012-.964 2.03-2.235.044-3.081.04-6.162.002-9.243-.016-1.31-.649-2.148-2.072-2.206-.212-.008-.422-.13-.802-.255zm5.523 6.706c2.682.278 3.703.022 4.349-1.167.648-1.192.65-2.439-.116-3.566-1.059-1.559-2.679-1.098-4.233-1.154v5.887z" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" fill="#3279A1"
+                    d="M31.076 126.463c-2.396-.104-4.348-.856-5.794-2.647-2.053-2.542-1.741-5.994.711-8.192 2.645-2.37 7.018-2.472 9.733-.171 1.838 1.559 2.709 3.533 2.111 5.953-.675 2.73-2.601 4.192-5.218 4.856-.546.137-1.122.149-1.543.201zm4.544-6.249l-.224-.147c-.149-.709-.236-1.439-.458-2.125-.642-1.971-1.986-2.945-3.963-2.949-1.97-.004-3.295.975-3.939 2.967-.572 1.771-.498 3.526.383 5.18 1.315 2.468 4.829 2.931 6.549.736.802-1.023 1.116-2.43 1.652-3.662z" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" fill="#505050"
+                    d="M122.748 114.317l.893-.782v4.376l-.259.195c-.209-.295-.498-.562-.615-.891-.591-1.655-1.865-2.553-3.319-2.117-.499.149-1.099.649-1.232 1.11-.109.376.285 1.12.671 1.374 1.008.664 2.131 1.156 3.214 1.703 2.356 1.192 3.198 2.845 2.401 4.736-.809 1.921-3.263 2.915-5.462 2.173-.606-.206-1.167-.544-1.728-.811l-.857 1.126-.379-.116c0-1.477-.009-2.954.015-4.431.002-.143.215-.282.33-.423.18.218.448.41.527.66.523 1.656 1.53 2.756 3.325 2.94 1.023.105 2.023-.021 2.378-1.187.324-1.067-.42-1.669-1.219-2.124-.879-.5-1.808-.909-2.708-1.37-.395-.203-.798-.404-1.153-.665-1.257-.927-1.753-2.263-1.381-3.618.332-1.211 1.523-2.237 2.997-2.28 1.091-.031 2.195.25 3.561.422zm-16.269 11.027c-.166.33-.258.607-.429.821-.103.128-.356.25-.49.208-.127-.04-.262-.294-.265-.456-.021-1.299-.021-2.599.001-3.896.002-.159.178-.314.274-.471.184.117.446.193.537.362.169.314.208.696.356 1.024.668 1.482 2.021 2.409 3.573 2.184.649-.093 1.45-.586 1.772-1.138.434-.741-.086-1.504-.814-1.925-.979-.566-1.993-1.075-3.009-1.571-2.297-1.121-3.266-2.972-2.443-4.719.818-1.737 3.33-2.46 5.429-1.556.256.11.499.25.7.354l1.078-.886c.113.317.185.426.186.535.008 1.216.005 2.431.005 3.646l-.317.212c-.211-.27-.504-.509-.619-.814-.573-1.532-1.48-2.381-2.81-2.219-.624.075-1.419.504-1.726 1.018-.45.755.2 1.361.885 1.729.963.519 1.949.992 2.926 1.483 2.418 1.213 3.269 2.898 2.434 4.824-.813 1.876-3.346 2.847-5.517 2.077-.564-.199-1.087-.52-1.717-.826z" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" fill="#494949"
+                    d="M65.261 1.395C38.48.917 16.103 22.648 16.096 49c-.008 27.11 21.338 48.739 48.077 48.699 26.49-.039 47.932-21.587 47.932-48.167C112.104 23.384 90.76 1.85 65.261 1.395zm-1.148 93.887c-25.326.006-45.694-20.529-45.693-46.067.001-24.88 20.685-45.48 45.674-45.489 25.432-.008 45.695 20.654 45.687 46.587-.008 24.483-20.807 44.964-45.668 44.969zm24.395-59.347c-.994-1.638-2.216-3.227-2.778-5.013-.64-2.032-1.171-4.345-.832-6.382.576-3.454 3.225-5.169 6.812-5.497C72.086.83 41.248 7.349 29.885 27.138c4.374-.203 8.55-.468 12.729-.524.791-.011 2.1.657 2.286 1.277.416 1.385-.748 1.868-1.986 1.963-1.301.102-2.604.199-4.115.314l14.935 44.494c.359-.587.507-.752.572-.945 2.762-8.255 5.54-16.505 8.232-24.784.246-.755.124-1.755-.146-2.531-1.424-4.111-3.13-8.133-4.379-12.294-.855-2.849-1.988-4.692-5.355-4.362-.574.056-1.273-1.178-1.916-1.816.777-.463 1.548-1.316 2.332-1.328a659.24 659.24 0 0120.572.006c.786.013 1.557.889 2.335 1.364-.681.622-1.267 1.554-2.063 1.794-1.276.385-2.691.312-4.218.448l14.953 44.484c2.266-7.524 4.374-14.434 6.422-21.36 1.83-6.182.74-11.957-2.567-17.403zM52.719 88.149c-.092.267-.097.563-.168 1.007 8.458 2.344 16.75 2.175 25.24-.685l-12.968-35.52c-4.151 12.064-8.131 23.63-12.104 35.198zm-6.535-1.606L26.646 32.947c-8.814 17.217-2.109 43.486 19.538 53.596zm54.452-55.403c-.27 2.994-.082 6.327-.941 9.362-2.023 7.152-4.496 14.181-6.877 21.229-2.588 7.66-5.28 15.286-7.927 22.927 12.437-7.372 19.271-18.253 20.359-32.555.62-8.14-2.188-19.412-4.614-20.963z" />
+                </svg>
+              </div>
+              <div class="descricoes">
+                <h2>WordPress</h2>
+                <p>Tenho experiência com WordPress, a plataforma mais popular para criação de sites e blogs. Desenvolvo
+                  e personalizo temas e plugins, além de configurar e manter sites otimizados e seguros. Utilizo
+                  WordPress para criar portfólios, e-commerces (com WooCommerce), landing pages, blogs corporativos e
+                  institucionais, com foco em performance, SEO e responsividade. Tenho conhecimento tanto no uso do
+                  painel administrativo quanto no desenvolvimento mais técnico com PHP, HTML, CSS e JavaScript para
+                  customizações avançadas.</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.figma.com/" target="_blank">
+            <div class="col d-flex align-items-start">
+              <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#tools" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 128 128">
+                  <path fill="#0acf83"
+                    d="M45.5 129c11.9 0 21.5-9.6 21.5-21.5V86H45.5C33.6 86 24 95.6 24 107.5S33.6 129 45.5 129zm0 0" />
+                  <path fill="#a259ff" d="M24 64.5C24 52.6 33.6 43 45.5 43H67v43H45.5C33.6 86 24 76.4 24 64.5zm0 0" />
+                  <path fill="#f24e1e" d="M24 21.5C24 9.6 33.6 0 45.5 0H67v43H45.5C33.6 43 24 33.4 24 21.5zm0 0" />
+                  <path fill="#ff7262" d="M67 0h21.5C100.4 0 110 9.6 110 21.5S100.4 43 88.5 43H67zm0 0" />
+                  <path fill="#1abcfe"
+                    d="M110 64.5c0 11.9-9.6 21.5-21.5 21.5S67 76.4 67 64.5 76.6 43 88.5 43 110 52.6 110 64.5zm0 0" />
+                </svg>
+              </div>
+              <div class="descricoes">
+                <h2>Figma</h2>
+                <p>Tenho conhecimento em Figma, uma das principais ferramentas de design de interfaces e prototipação.
+                  Utilizo Figma para criar layouts modernos, responsivos e intuitivos, além de colaborar com equipes de
+                  design e desenvolvimento em tempo real. Tenho experiência em wireframes, protótipos navegáveis,
+                  sistemas de design, e exportação de assets para projetos web e mobile. Figma é uma ferramenta
+                  essencial no meu fluxo de trabalho para alinhar estética, usabilidade e funcionalidade antes do
+                  desenvolvimento.</p>
+              </div>
+            </div>
+        </div>
+        </a>
+      </div>
+    </div>  
+      <section id="scrollspyHeading7" class="py-5 text-center bg-dark text-light container">
+        <div class="row py-lg-5">
+          <div  class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light text-light">Sobre Mim</h1>
+            <p class="lead text-light">Saiba mais sobre minha história</p>
+          </div>
+        </div>
+      </section>
+      <div id="sobre_hist" class="container marketing text-light">
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 id="saudacao"></h2>
+            <h2 id="apresentacao" class="featurette-heading fw-normal lh-1"> Me chamo Pedro Thiago e irei contar sobre minha trajetória pessoal e acadêmica</h2>
+            <script>
+              function saudacaoPorHorario() {
+      const agora = new Date();
+      const hora = agora.getHours();
+
+      if (hora >= 6 && hora < 12) {
+        return "☀️ Bom dia!";
+      } else if (hora >= 12 && hora < 18) {
+        return "🌤️ Boa tarde!";
+      } else {
+        return "🌙 Boa noite!";
+      }
+    }
+
+    document.getElementById("saudacao").textContent = saudacaoPorHorario();
+            </script>
+            <p class="lead">Desde muito jovem, fui cercado por uma base familiar sólida e afetuosa. Fui criado por uma família extremamente amorosa, juntamente com dois irmãos que sempre demonstraram atenção, cuidado e, sobretudo, um grande incentivo à minha formação. Desde os primeiros anos de vida, fui orientado a valorizar a educação como ferramenta essencial de transformação e crescimento.
+
+              Iniciei minha vida escolar com apenas um ano de idade. Ao longo dessa jornada, construí diversas amizades e experiências que, ainda que nem todas estejam vivas em minha memória, foram fundamentais para meu desenvolvimento pessoal e social. Venho de uma família brasileira de classe média baixa, onde sempre ficou muito claro que a educação seria o caminho mais seguro e digno para melhorar de vida.
+              
+              Desde os primeiros anos escolares, demonstrei afinidade com os estudos — especialmente com a matemática — e, inspirado por minha mãe, que é técnica em enfermagem, sonhei durante muito tempo em seguir carreira na área da saúde. Ela sempre foi minha maior referência e fonte de motivação, transmitindo valores fundamentais como dedicação, foco e trabalho árduo. A ela, sou eternamente grato.
+              
+              </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="assets/img/Programar é apaixonante.png" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+          </div>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+
+    <div id="sobre_hist2" class="row featurette">
+      <div class="col-md-7">
+        <p class="lead text-light">Durante minha adolescência, como muitos jovens, passei por diferentes fases de autodescoberta. Cogitei ser dentista, policial ou bombeiro, mas foi apenas por volta dos 15 anos, já no ensino médio, que descobri minha verdadeira vocação: a tecnologia.
+              
+          Meu interesse por programação surgiu de forma natural, encantado com o mundo do desenvolvimento de sistemas, criação de softwares, APIs e sites. Desde criança, sempre tive acesso ao computador e certa familiaridade com tecnologia, mas foi nesse momento que comecei, de fato, a compreender como tudo funcionava. O fascínio por entender a lógica por trás dos sistemas me envolveu de forma profunda. Trabalhar com aquilo que gosto — utilizando o computador para criar soluções — tornou-se meu grande objetivo de vida.
+          
+          Apesar das dificuldades — como quando meu antigo computador queimou — recebi o apoio de professores incríveis, em especial uma professora que me emprestou seu próprio notebook para que eu não parasse de estudar. São gestos assim que marcam uma vida e solidificam ainda mais a certeza do caminho escolhido. A paixão pela programação cresceu a cada projeto, cada código, cada pequeno avanço.
+          
+          Atualmente, estou cursando o 3º ano do Ensino Médio na Escola Estadual de Educação Profissional Dr. Napoleão Neves da Luz, na formação de Técnico em Informática. Meu próximo grande passo é ingressar na Universidade Federal do Cariri (UFCA), no curso de Engenharia de Software — onde pretendo aprofundar meus conhecimentos e expandir ainda mais minhas habilidades técnicas e humanas.
+          
+          Agradeço sinceramente pelo interesse em conhecer um pouco mais da minha história. Caso deseje visualizar meus projetos ou entrar em contato para propostas e parcerias, meus canais estão disponíveis abaixo.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="assets/img/Programar é apaixonante2.png" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+      </div>
+    </div>
+    </div>
+  </main>
+
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-white"
+            style="background-color: rgba(160, 160, 160, 0.2)"
+            >
+      <!-- Section: Social media -->
+      <section id="scrollspyHeading8"
+               class="d-flex justify-content-between p-4"
+               style="background-color: rgba(160, 160, 160, 0.2)"
+               >
+        <!-- Left -->
+        <div class="me-5">
+          <span>Acesse minhas redes sociais:</span>
+        </div>
+        <!-- Left -->
+  
+        <!-- Right -->
+        <div>
+          <a href="https://www.linkedin.com/in/pedro-thiago-bb3bb326a" target="_blank" class="text-light me-4">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+              <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+          </svg>
+          </a>
+          <a href="https://github.com/PedroThiago02" target="_blank" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+              <path d="M17.791,46.836C18.502,46.53,19,45.823,19,45v-5.4c0-0.197,0.016-0.402,0.041-0.61C19.027,38.994,19.014,38.997,19,39 c0,0-3,0-3.6,0c-1.5,0-2.8-0.6-3.4-1.8c-0.7-1.3-1-3.5-2.8-4.7C8.9,32.3,9.1,32,9.7,32c0.6,0.1,1.9,0.9,2.7,2c0.9,1.1,1.8,2,3.4,2 c2.487,0,3.82-0.125,4.622-0.555C21.356,34.056,22.649,33,24,33v-0.025c-5.668-0.182-9.289-2.066-10.975-4.975 c-3.665,0.042-6.856,0.405-8.677,0.707c-0.058-0.327-0.108-0.656-0.151-0.987c1.797-0.296,4.843-0.647,8.345-0.714 c-0.112-0.276-0.209-0.559-0.291-0.849c-3.511-0.178-6.541-0.039-8.187,0.097c-0.02-0.332-0.047-0.663-0.051-0.999 c1.649-0.135,4.597-0.27,8.018-0.111c-0.079-0.5-0.13-1.011-0.13-1.543c0-1.7,0.6-3.5,1.7-5c-0.5-1.7-1.2-5.3,0.2-6.6 c2.7,0,4.6,1.3,5.5,2.1C21,13.4,22.9,13,25,13s4,0.4,5.6,1.1c0.9-0.8,2.8-2.1,5.5-2.1c1.5,1.4,0.7,5,0.2,6.6c1.1,1.5,1.7,3.2,1.6,5 c0,0.484-0.045,0.951-0.11,1.409c3.499-0.172,6.527-0.034,8.204,0.102c-0.002,0.337-0.033,0.666-0.051,0.999 c-1.671-0.138-4.775-0.28-8.359-0.089c-0.089,0.336-0.197,0.663-0.325,0.98c3.546,0.046,6.665,0.389,8.548,0.689 c-0.043,0.332-0.093,0.661-0.151,0.987c-1.912-0.306-5.171-0.664-8.879-0.682C35.112,30.873,31.557,32.75,26,32.969V33 c2.6,0,5,3.9,5,6.6V45c0,0.823,0.498,1.53,1.209,1.836C41.37,43.804,48,35.164,48,25C48,12.318,37.683,2,25,2S2,12.318,2,25 C2,35.164,8.63,43.804,17.791,46.836z"></path>
+          </svg>
+          </a>
+          <a href="mailto:pedrothiagom456@gmail.com" target="_blank" class="text-white me-4">
+            <?xml version="1.0" ?><svg height="30" version="1.1" viewBox="0 0 20 16" width="30" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><desc/><defs/><g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1"><g fill="#000000" id="Icons-Communication" transform="translate(0.000000, -85.000000)"><g id="gmail" transform="translate(0.000000, 85.000000)"><path d="M18,0 L2,0 C0.9,0 0,0.9 0,2 L0,14 C0,15.1 0.9,16 2,16 L18,16 C19.1,16 20,15.1 20,14 L20,2 C20,0.9 19.1,0 18,0 L18,0 Z M18,14 L16,14 L16,5.2 L10,9 L4,5.2 L4,14 L2,14 L2,2 L3.2,2 L10,6.2 L16.8,2 L18,2 L18,14 L18,14 Z" id="Shape"/></g></g></g></svg>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Links  -->
+      
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(160, 160, 160, 0.1)"
+           >
+        © 2025 Todos os Direitos Reservados:
+        <a class="text-white" href="https://mdbootstrap.com/"
+           >Pedro Thiago de Souza Matias</a
+          >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+</html>
