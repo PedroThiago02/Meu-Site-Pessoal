@@ -2,7 +2,7 @@
 
 ![HTML](https://img.shields.io/badge/HTML-5-orange?style=flat-square&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-3-blue?style=flat-square&logo=css3)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/status-concluído-green?style=flat-square)
 
 ## 🧾 Sobre o Projeto
 
